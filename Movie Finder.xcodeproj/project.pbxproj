@@ -14,6 +14,8 @@
 		114CDAE624B964D1001823E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 114CDAE524B964D1001823E8 /* Assets.xcassets */; };
 		114CDAE924B964D1001823E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114CDAE724B964D1001823E8 /* LaunchScreen.storyboard */; };
 		114CDAF424B964D1001823E8 /* Movie_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CDAF324B964D1001823E8 /* Movie_FinderTests.swift */; };
+		114CDB0024B974C1001823E8 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CDAFE24B974C1001823E8 /* MovieTableViewCell.swift */; };
+		114CDB0124B974C1001823E8 /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114CDAFF24B974C1001823E8 /* MovieTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		114CDAEF24B964D1001823E8 /* Movie FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Movie FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		114CDAF324B964D1001823E8 /* Movie_FinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_FinderTests.swift; sourceTree = "<group>"; };
 		114CDAF524B964D1001823E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		114CDAFE24B974C1001823E8 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		114CDAFF24B974C1001823E8 /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				114CDADE24B964CE001823E8 /* SceneDelegate.swift */,
 				114CDAE024B964CE001823E8 /* ViewController.swift */,
 				114CDAE224B964CE001823E8 /* Main.storyboard */,
+				114CDAFE24B974C1001823E8 /* MovieTableViewCell.swift */,
+				114CDAFF24B974C1001823E8 /* MovieTableViewCell.xib */,
 				114CDAE524B964D1001823E8 /* Assets.xcassets */,
 				114CDAE724B964D1001823E8 /* LaunchScreen.storyboard */,
 				114CDAEA24B964D1001823E8 /* Info.plist */,
@@ -182,6 +188,7 @@
 			files = (
 				114CDAE924B964D1001823E8 /* LaunchScreen.storyboard in Resources */,
 				114CDAE624B964D1001823E8 /* Assets.xcassets in Resources */,
+				114CDB0124B974C1001823E8 /* MovieTableViewCell.xib in Resources */,
 				114CDAE424B964CE001823E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +209,7 @@
 			files = (
 				114CDAE124B964CE001823E8 /* ViewController.swift in Sources */,
 				114CDADD24B964CE001823E8 /* AppDelegate.swift in Sources */,
+				114CDB0024B974C1001823E8 /* MovieTableViewCell.swift in Sources */,
 				114CDADF24B964CE001823E8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
